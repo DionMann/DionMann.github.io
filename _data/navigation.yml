@@ -18,7 +18,7 @@ main:
   #  url: /year-archive/
 
   - title: "Projects"
-    url: /projects/
+    url: /projects/ # This actually goes to _portfolio
     
   # - title: "CV"
   #   url: /cv-json/
