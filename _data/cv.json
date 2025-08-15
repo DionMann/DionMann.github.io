@@ -1,20 +1,20 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Dion Mann",
+    "email": "dion.mann@uconn.edu",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://dionmann.github.io",
+    "summary": "Summary for left sidebar goes here.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Storrs, CT",
       "countryCode": "US",
       "region": ""
     },
     "profiles": [
       {
-        "network": "Google Scholar",
+       "network": "Google Scholar",
         "username": "",
         "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
       },
