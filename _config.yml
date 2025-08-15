@@ -12,7 +12,7 @@ site_theme               : "air" # Currently available options are "default", "a
 title                    : "Home Page / About"
 title_separator          : "-"
 name                     : &name "Dion Mann"
-description              : &description "This is a personal description"
+description              : &description "Third-year graduate student interested in mathematical quantization, gauge theory, and diffeology."
 url                      : https://dionmann.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "dionmann/dionmann.github.io"
