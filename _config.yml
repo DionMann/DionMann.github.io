@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Dion Mann"
   pronouns         : # example: "she/her"  
-  bio              : "Third-year graduate student interested in mathematical quantization, gauge theory, and diffeology."
+  bio              : # "Third-year graduate student interested in mathematical quantization, gauge theory, and diffeology."
   location         : # "Earth"
   employer         : "U. of Connecticut, Storrs"
   uri              : # URL
