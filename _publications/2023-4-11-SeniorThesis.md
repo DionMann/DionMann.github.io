@@ -2,11 +2,11 @@
 title: "Deformation Quantization and Applications to Quantum Field Theory"
 collection: publications
 permalink: /publication/2023-4-11-SeniorThesis
-date: 2023-4-11
+date: 2023-04-11
+venue: 'website'
 paperurl: 'http://dionmann.github.io/files/DMann_SeniorThesis2023.pdf'
 pubtype: 'academic'
 excerpt: 'This is my senior thesis on deformation quantization.'
-excerpt_separator: ""
 ---
 
 This is an honors thesis under the Department of Mathematics. The purpose of this paper is to outline the primary concepts in deformation quantization according to [2], including some advancements in its application to quantum field theory (QFT). Therefore we emphasize viewpoints in the “nice” (smooth finite-dimensional manifolds) case of deformation quantization that somewhat survive the field-theoretic context, such as (Hochschild) cohomology and c-equivalence operators. The deformation quantization of fields remains an active area of research, which is acknowledged by this paper and therefore only main ideas are outlined here. Many (outlines of) proofs appearing in the literature also appear in this paper, but full details are provided.
