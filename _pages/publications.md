@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Written Work"
-permalink: /publications/
+permalink: /written-work/
 author_profile: true
 ---
 
