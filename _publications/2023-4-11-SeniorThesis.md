@@ -1,7 +1,7 @@
 ---
 title: "Deformation Quantization and Applications to Quantum Field Theory"
 collection: publications
-category: manuscripts
+# category: manuscripts
 permalink: /publication/2023-4-11-SeniorThesis
 excerpt: 'This is my senior thesis, which was mostly expository work on deformation quantization. '
 date: 2023-4-11
