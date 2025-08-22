@@ -17,6 +17,9 @@ main:
   # - title: "Blog Posts"
   #  url: /year-archive/
 
+  - title: "Publications"
+    url: /publications/
+
   - title: "Projects"
     url: /projects/ # This actually goes to _portfolio
     
