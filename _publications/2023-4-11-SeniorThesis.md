@@ -5,7 +5,7 @@ permalink: /publication/2023-4-11-SeniorThesis
 date: 2023-4-11
 paperurl: 'http://dionmann.github.io/files/DMann_SeniorThesis2023.pdf'
 pubtype: 'academic'
-authors: 'D. Mann'
+excerpt: 'This is my senior thesis on deformation quantization.'
 excerpt_separator: ""
 ---
 
