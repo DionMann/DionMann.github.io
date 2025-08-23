@@ -21,7 +21,7 @@ Here you can find a compilation of all my written work, including expository not
 # Notes
 ---
 {% for post in site.publications reversed %}
-  {% if post.pubtype == 'other' %}
+  {% if post.pubtype == 'notes' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
