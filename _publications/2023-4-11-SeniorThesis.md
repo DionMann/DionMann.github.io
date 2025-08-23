@@ -2,7 +2,7 @@
 title: "Deformation Quantization and Applications to Quantum Field Theory"
 collection: publications
 date: 2023-04-11
-venue: 'website'
+venue: 'Personal Website'
 permalink: /written-work/2023-4-11-SeniorThesis
 paperurl: 'http://dionmann.github.io/files/DMann_SeniorThesis2023.pdf'
 pubtype: 'academic'
