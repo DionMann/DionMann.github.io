@@ -7,8 +7,8 @@ author_profile: true
 
 Here you can find a compilation of all my written work, including expository notes.
 
-[Academic](#academic)\
-[Other](#other)
+[Academic](#academic)  
+[Notes](#notes)
 
 # Academic
 ---
@@ -18,7 +18,7 @@ Here you can find a compilation of all my written work, including expository not
   {% endif %}
 {% endfor %}
 
-# Other
+# Notes
 ---
 {% for post in site.publications reversed %}
   {% if post.pubtype == 'other' %}
