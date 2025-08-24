@@ -5,7 +5,6 @@ date: 2023-04-11
 venue: 'Personal Website'
 permalink: /written-work/2023-4-11-SeniorThesis
 paperurl: 'http://dionmann.github.io/files/DMann_SeniorThesis2023.pdf'
-slidesurl: 'http://dionmann.github.io/files/2023-04-11-SeniorDefense.pdf'
 pubtype: 'other'
 excerpt: 'This is an undergraduate honors thesis for mathematics at CU Boulder. The purpose of this project is to outline the primary concepts in deformation quantization according to [2], including some advancements in its application to quantum field theory (QFT).'
 ---
