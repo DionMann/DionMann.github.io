@@ -23,7 +23,7 @@ Here you can find a compilation of all my written work, including expository not
 ---
 
 # Other Academic Work  
-Here you can find miscellaneous work, such as excercises from various areas of math.  
+Here you can find miscellaneous work, such as problems/exercises from various areas of math.
 
 ---
 
