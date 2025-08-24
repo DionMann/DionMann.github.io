@@ -20,6 +20,8 @@ Here you can find a compilation of all my written work, including expository not
   {% endif %}
 {% endfor %}
 
+---
+
 # Other Academic Work  
 Here you can find miscellaneous work, such as excercises from various areas of math.  
 
@@ -30,3 +32,5 @@ Here you can find miscellaneous work, such as excercises from various areas of m
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
+
+---
