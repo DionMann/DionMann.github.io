@@ -10,7 +10,7 @@ Here you can find a compilation of all my written work, including expository not
 [Notes](#notes)  
 [Other Academic Work](#other-academic-work)
 
-\
+  
 
 ---
 
@@ -24,9 +24,9 @@ Here you can find a compilation of all my written work, including expository not
   {% endif %}
 {% endfor %}
 
----
+  
 
-\
+---
 
 # Other Academic Work  
 Here you can find miscellaneous work, such as problems/exercises from various areas of math.
