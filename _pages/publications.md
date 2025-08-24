@@ -5,7 +5,7 @@ permalink: /written-work/
 author_profile: true
 ---
 
-Here you can find a compilation of all my written work, including expository notes.
+Here you can find a compilation of all my written work, including expository notes. Click on the title of the paper you are interested in to get a more detailed explanation, or you can just click the _Download Paper_ button for the full pdf!
 
 [Notes](#notes)  
 [Other Academic Work](#other-academic-work)
