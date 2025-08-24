@@ -10,6 +10,8 @@ Here you can find a compilation of all my written work, including expository not
 [Notes](#notes)  
 [Other Academic Work](#other-academic-work)
 
+---
+
 # Notes
 
 ---
