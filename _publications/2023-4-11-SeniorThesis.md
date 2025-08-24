@@ -5,10 +5,12 @@ date: 2023-04-11
 venue: 'Personal Website'
 permalink: /written-work/2023-4-11-SeniorThesis
 paperurl: 'http://dionmann.github.io/files/DMann_SeniorThesis2023.pdf'
+slidesurl: 'http://dionmann.github.io/files/2023-04-11-SeniorDefense.pdf'
 pubtype: 'other'
-excerpt: 'This is an honors thesis under the Department of Mathematics. The purpose of this paper is to outline the primary concepts in deformation quantization according to [2], including some advancements in its application to quantum field theory (QFT). Therefore we emphasize viewpoints in the “nice” (smooth finite-dimensional manifolds) case of deformation quantization that somewhat survive the field-theoretic context, such as (Hochschild) cohomology and c-equivalence operators. The deformation quantization of fields remains an active area of research, which is acknowledged by this paper and therefore only main ideas are outlined here. Many (outlines of) proofs appearing in the literature also appear in this paper, but full details are provided.'
+excerpt: 'This is an undergraduate honors thesis for mathematics at CU Boulder. The purpose of this project is to outline the primary concepts in deformation quantization according to [2], including some advancements in its application to quantum field theory (QFT).'
 ---
 
 This is an honors thesis under the Department of Mathematics. The purpose of this paper is to outline the primary concepts in deformation quantization according to [2], including some advancements in its application to quantum field theory (QFT). Therefore we emphasize viewpoints in the “nice” (smooth finite-dimensional manifolds) case of deformation quantization that somewhat survive the field-theoretic context, such as (Hochschild) cohomology and c-equivalence operators. The deformation quantization of fields remains an active area of research, which is acknowledged by this paper and therefore only main ideas are outlined here. Many (outlines of) proofs appearing in the literature also appear in this paper, but full details are provided.
 
-[Download paper here](http://dionmann.github.io/files/DMann_SeniorThesis2023.pdf)
+[Download paper here](http://dionmann.github.io/files/DMann_SeniorThesis2023.pdf)  
+[Download slides here](http://dionmann.github.io/files/2023-04-11-SeniorDefense.pdf)
