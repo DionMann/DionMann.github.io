@@ -9,11 +9,11 @@ pubtype: 'notes'
 excerpt: 'This was written for the final paper in my measure theory class at UConn. The paper proves Riesz Representation on compact metric spaces using partitions of unity.'
 ---
 
-Let \\(K\\) be a compact metric space. Suppose that \\(\mu\\) is a finite Borel measure on \\(X\\). Then there is a positive functional \\(C^0(K) \to \mathbb{R}\\) given by
+Let \\(K\\) be a compact metric space. Suppose that \\(\mu\\) is a finite Borel measure on \\(X\\). Then there is a positive  linear functional \\(C^0(K) \to \mathbb{R}\\) given by
 \\[
 f \mapsto \int f\ d\mu
 \\]
-It turns out that the converse of this observation also holds, namely that given a positive functional \\(T : C^0(K) \to \mathbb{R}\\) then there is a unique finite Borel measure \\(\mu\\) on \\(K\\) such that
+It turns out that the converse of this observation also holds, namely that given a positive linear functional \\(T : C^0(K) \to \mathbb{R}\\) then there is a unique finite Borel measure \\(\mu\\) on \\(K\\) such that
 \\[
 Tf = \int f\ d\mu
 \\]
