@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/2024-08-02-MathClub-QuantumMechanicsAsDeformationOfClassicalMechanics
 venue: "UConn Math Club"
-date: 2024-08-02
+date: 2024-10-02
 location: "Storrs, CT, USA"
 ---
 
