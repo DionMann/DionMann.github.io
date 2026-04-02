@@ -3,7 +3,7 @@ title: "Diffeology: A Smooth Analogue of Topology"
 collection: talks
 type: "Conference"
 permalink: /talks/2026-03-08-MCC-Diffeology
-venue: "UConn Math Club"
+venue: "Mathematics Continued Conference"
 date: 2026-03-08
 location: "Storrs, CT, USA"
 ---
