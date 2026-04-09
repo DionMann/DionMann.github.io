@@ -7,9 +7,6 @@ venue: "UConn, Mathematics"
 date: 2025-01-01
 location: "Storrs, U.S."
 ---
-
-Semesters Taught
----
 * Spring 2026 (two lecture sections).
 * Fall 2025 (two lecture sections).
 * Spring 2025 (two lecture sections).
