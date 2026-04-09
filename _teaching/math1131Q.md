@@ -7,8 +7,6 @@ venue: "UConn, Mathematics"
 date: 2023-08-01
 location: "Storrs, U.S."
 ---
-Semesters Taught
----
 * Fall 2023 (two discussion sections).
 
 Course Description
