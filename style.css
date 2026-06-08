@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Zen+Dots&display=swap');
 
+li {
+  margin-bottom: 12px; 
+}
+
+/* Optional: Remove the margin from the very last item to prevent extra bottom gap */
+li:last-child {
+  margin-bottom: 0;
+}
+
 /* Change the fonts here! */
 
 body {
