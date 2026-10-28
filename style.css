@@ -58,3 +58,117 @@ p, a, li {
   background-color: #108f5a;
   color: white;
 }
+/* ---------- Instructor Resources pages ---------- */
+
+h3 {
+	font-family: "Verdana";
+}
+
+/* Small "you are here" line above the page title */
+.breadcrumb, .breadcrumb a {
+	font-size: 18px;
+}
+
+.breadcrumb a, .course-card a, .resource-table a, .green {
+	color: #13b963;
+}
+
+/* One box per course on resources.html */
+.course-card {
+	background-color: rgb(252, 249, 245);
+	border: 1px solid #d9cfc3;
+	border-left: 6px solid #13b963;
+	padding: 4px 20px 8px;
+	margin: 18px 0;
+}
+
+.course-card h3 a {
+	font-family: "Verdana";
+	font-size: 22px;
+}
+
+/* Status labels: <span class="status">Available</span>, add "soon" for the outlined version */
+.status {
+	display: inline-block;
+	font-family: "Verdana";
+	font-size: 13px;
+	font-weight: normal;
+	padding: 3px 9px;
+	border: 1px solid #108f5a;
+	border-radius: 10px;
+	background-color: #108f5a;
+	color: white;
+	margin-left: 8px;
+	vertical-align: middle;
+}
+
+.status.soon {
+	background-color: transparent;
+	border-color: #8a8178;
+	color: #5f5850;
+}
+
+/* Topic-by-topic tables on the course resource pages */
+.table-wrap {
+	overflow-x: auto;
+}
+
+.resource-table {
+	border-collapse: collapse;
+	width: 100%;
+	margin: 12px 0 28px;
+	background-color: rgb(252, 249, 245);
+}
+
+.resource-table th, .resource-table td {
+	border: 1px solid #d9cfc3;
+	padding: 8px 12px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.resource-table th {
+	background-color: #13b963;
+	color: white;
+	font-family: "Verdana";
+	font-size: 15px;
+}
+
+.resource-table td, .resource-table td a {
+	font-family: "Garamond";
+	font-size: 21px;
+}
+
+.resource-table td.num {
+	text-align: center;
+	width: 2em;
+}
+
+/* Use for cells with nothing posted yet */
+.resource-table td.empty {
+	color: #9a9087;
+}
+
+/* Highlighted box for notes such as the license */
+.note {
+	background-color: rgb(232, 245, 237);
+	border-left: 6px solid #13b963;
+	padding: 2px 18px;
+	margin: 18px 0;
+}
+
+/* Keep short entries (e.g. section numbers) on one line */
+.resource-table td.nowrap {
+	white-space: nowrap;
+}
+
+/* Full-width "Week N" rows that group a course table by week */
+.resource-table tr.week-row td {
+	background-color: rgb(232, 245, 237);
+	font-size: 19px;
+}
+
+/* Let long links (e.g. DOIs) wrap on phones instead of widening the page */
+p, li {
+	overflow-wrap: break-word;
+}
