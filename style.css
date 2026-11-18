@@ -172,3 +172,165 @@ h3 {
 p, li {
 	overflow-wrap: break-word;
 }
+
+/* ---------- CV page (cv.html) ---------- */
+
+/* The two PDF download cards (they reuse .course-card) */
+.cv-downloads {
+	display: flex;
+	max-width: 1150px;
+	flex-wrap: wrap;
+	column-gap: 24px;
+}
+
+.cv-downloads .course-card {
+	flex: 1 1 340px;
+}
+
+.cv-jump, .cv-jump a {
+	font-size: 18px;
+}
+
+.cv-jump a {
+	color: #13b963;
+}
+
+/* Wrapper for the CV itself */
+.cv {
+	font-family: "Garamond";
+	font-size: 22px;
+	max-width: 1150px;
+	margin-bottom: 60px;
+}
+
+.cv p, .cv li, .cv a {
+	font-size: inherit;
+}
+
+.cv a {
+	color: #13b963;
+}
+
+/* Section titles with a green rule, as in the PDF */
+.cv h2 {
+	color: #108f5a;
+	border-bottom: 2px solid #13b963;
+	padding-bottom: 4px;
+	margin: 38px 0 14px;
+}
+
+/* Subheadings ("Instructor of Record"); a <span> inside is pushed to the right */
+.cv h3 {
+	display: flex;
+	justify-content: space-between;
+	gap: 1.5em;
+	font-family: "Garamond";
+	font-size: 22px;
+	font-style: italic;
+	margin: 22px 0 8px;
+}
+
+.cv h3 span {
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* One entry; .cv-row puts text on the left and .cv-right on the right */
+.cv-entry {
+	margin: 0 0 14px 12px;
+}
+
+.cv-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	gap: 1.5em;
+}
+
+.cv-right {
+	white-space: nowrap;
+	text-align: right;
+}
+
+.cv .cv-sub {
+	font-size: 19px;
+	margin: 3px 0 0 18px;
+}
+
+.cv-small {
+	font-size: 19px;
+	margin-top: 2px;
+}
+
+.cv .cv-muted {
+	color: #6b635b;
+}
+
+/* Talks: tighter spacing, hanging indent when a title wraps */
+.cv-talk {
+	margin-bottom: 9px;
+}
+
+.cv-talk .cv-row > span:first-child {
+	padding-left: 1.2em;
+	text-indent: -1.2em;
+}
+
+/* Courses: code | title | term, with details underneath the title */
+.cv-course {
+	display: grid;
+	grid-template-columns: 6.6em 1fr auto;
+	column-gap: 1em;
+	align-items: baseline;
+	margin: 0 0 14px 12px;
+}
+
+.cv-course .cv-more {
+	grid-column: 2 / 4;
+}
+
+.cv-course .cv-sub {
+	margin-left: 0;
+}
+
+.cv-details {
+	margin: 6px 0 0;
+	padding-left: 1.2em;
+	list-style-type: "\2013\00a0 ";
+}
+
+.cv .cv-details li {
+	font-size: 19px;
+	margin-bottom: 5px;
+}
+
+/* DRP projects under the mentoring entry */
+.cv-sublist {
+	list-style: none;
+	margin: 4px 0 0;
+	padding-left: 18px;
+}
+
+.cv .cv-sublist li {
+	font-size: 19px;
+	margin-bottom: 3px;
+}
+
+/* Numbered publications: [1], [2], ... */
+.cv-pubs {
+	list-style: none;
+	counter-reset: pub;
+	margin: 0 0 14px 12px;
+	padding-left: 2.2em;
+}
+
+.cv-pubs li {
+	counter-increment: pub;
+	position: relative;
+}
+
+.cv-pubs li::before {
+	content: "[" counter(pub) "]";
+	position: absolute;
+	left: -2.2em;
+}
