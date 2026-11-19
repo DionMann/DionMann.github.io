@@ -1,4 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Zen+Dots&display=swap');
+/* Change the site colors and fonts here! */
+:root {
+  --green: #0b7a45;       /* links, nav bar, table headers, accent borders */
+  --green-dark: #075c33;  /* current nav tab, status labels, CV section titles */
+  --serif: "Times New Roman", Times, serif;
+  --sans: Verdana, Geneva, sans-serif;
+}
+
+/* All links are green (replaces the old inline style="color: ..." on each link) */
+a {
+  color: var(--green);
+}
 
 li {
   margin-bottom: 12px; 
@@ -18,22 +29,22 @@ body {
 }
 
 h1 {
-	font-family: "Verdana";
+	font-family: var(--sans);
 	font-size: 36px;
 }
 
 h2 {
-	font-family: "Verdana";
+	font-family: var(--sans);
 }
 
 p, a, li {
-	font-family: "Garamond";
+	font-family: var(--serif);
 	font-size: 24px;
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #13b963;
+  background-color: var(--green);
   overflow: hidden;
 }
 
@@ -55,13 +66,13 @@ p, a, li {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #108f5a;
+  background-color: var(--green-dark);
   color: white;
 }
 /* ---------- Instructor Resources pages ---------- */
 
 h3 {
-	font-family: "Verdana";
+	font-family: var(--sans);
 }
 
 /* Small "you are here" line above the page title */
@@ -70,33 +81,33 @@ h3 {
 }
 
 .breadcrumb a, .course-card a, .resource-table a, .green {
-	color: #13b963;
+	color: var(--green);
 }
 
 /* One box per course on resources.html */
 .course-card {
 	background-color: rgb(252, 249, 245);
 	border: 1px solid #d9cfc3;
-	border-left: 6px solid #13b963;
+	border-left: 6px solid var(--green);
 	padding: 4px 20px 8px;
 	margin: 18px 0;
 }
 
 .course-card h3 a {
-	font-family: "Verdana";
+	font-family: var(--sans);
 	font-size: 22px;
 }
 
 /* Status labels: <span class="status">Available</span>, add "soon" for the outlined version */
 .status {
 	display: inline-block;
-	font-family: "Verdana";
+	font-family: var(--sans);
 	font-size: 13px;
 	font-weight: normal;
 	padding: 3px 9px;
-	border: 1px solid #108f5a;
+	border: 1px solid var(--green-dark);
 	border-radius: 10px;
-	background-color: #108f5a;
+	background-color: var(--green-dark);
 	color: white;
 	margin-left: 8px;
 	vertical-align: middle;
@@ -128,14 +139,14 @@ h3 {
 }
 
 .resource-table th {
-	background-color: #13b963;
+	background-color: var(--green);
 	color: white;
-	font-family: "Verdana";
+	font-family: var(--sans);
 	font-size: 15px;
 }
 
 .resource-table td, .resource-table td a {
-	font-family: "Garamond";
+	font-family: var(--serif);
 	font-size: 21px;
 }
 
@@ -152,7 +163,7 @@ h3 {
 /* Highlighted box for notes such as the license */
 .note {
 	background-color: rgb(232, 245, 237);
-	border-left: 6px solid #13b963;
+	border-left: 6px solid var(--green);
 	padding: 2px 18px;
 	margin: 18px 0;
 }
@@ -192,12 +203,12 @@ p, li {
 }
 
 .cv-jump a {
-	color: #13b963;
+	color: var(--green);
 }
 
 /* Wrapper for the CV itself */
 .cv {
-	font-family: "Garamond";
+	font-family: var(--serif);
 	font-size: 22px;
 	max-width: 1150px;
 	margin-bottom: 60px;
@@ -208,13 +219,13 @@ p, li {
 }
 
 .cv a {
-	color: #13b963;
+	color: var(--green);
 }
 
 /* Section titles with a green rule, as in the PDF */
 .cv h2 {
-	color: #108f5a;
-	border-bottom: 2px solid #13b963;
+	color: var(--green-dark);
+	border-bottom: 2px solid var(--green);
 	padding-bottom: 4px;
 	margin: 38px 0 14px;
 }
@@ -224,7 +235,7 @@ p, li {
 	display: flex;
 	justify-content: space-between;
 	gap: 1.5em;
-	font-family: "Garamond";
+	font-family: var(--serif);
 	font-size: 22px;
 	font-style: italic;
 	margin: 22px 0 8px;
@@ -333,4 +344,28 @@ p, li {
 	content: "[" counter(pub) "]";
 	position: absolute;
 	left: -2.2em;
+}
+
+/* A list inside a list item (e.g. Office Information on the home page) */
+li > ul, li > ol {
+  margin-top: 12px;
+}
+
+/* ---------- Phones and narrow windows ---------- */
+@media (max-width: 600px) {
+  p, a, li { font-size: 19px; }
+  h1 { font-size: 28px; }
+  .topnav a { font-size: 15px; padding: 10px 12px; }
+  .breadcrumb, .breadcrumb a, .cv-jump, .cv-jump a { font-size: 16px; }
+  .resource-table td, .resource-table td a { font-size: 17px; }
+  .resource-table tr.week-row td { font-size: 16px; }
+
+  /* CV: smaller text, and dates/places go under each entry instead of to the right */
+  .cv, .cv h3 { font-size: 18px; }
+  .cv .cv-sub, .cv-small, .cv .cv-details li, .cv .cv-sublist li { font-size: 16px; }
+  .cv-row, .cv h3 { flex-direction: column; gap: 0; }
+  .cv-right { white-space: normal; text-align: left; }
+  .cv-course { grid-template-columns: auto 1fr; }
+  .cv-course .cv-right { grid-column: 2; }
+  .cv-course .cv-more { grid-column: 1 / -1; }
 }
